@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>race</name>
+  <version>0.0.1</version>
+  <description>The race package</description>
+  <maintainer email="tmprithvi@gmail.com">Prats</maintainer>
+  <license>MIT</license>
+
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>message_generation</depend>
+  <depend>gazebo_ros</depend>
+  <depend>laser_geometry</depend>
+  <depend>PCL</depend>
+  <depend>Eigen3</depend>
+
+  <!-- Build dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>catkin</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <!-- Test dependencies (optional) -->
+  <test_depend>gtest</test_depend>
+
+</package>
